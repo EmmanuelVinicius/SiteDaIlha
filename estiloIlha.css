@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@import url('');
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+h1, #portfolio{
+	text-align: center;
+}
+#topo{
+	margin-top: -25px;
+	width: 100%;
+}
+.nav{
+	margin: 2%;
+}
+.nav a{
+	vertical-align: middle;
+}
+.nav img{
+	width: 208px;
+	height: 96px
+}
+#nossosServicos{
+	background: url('imagens/bg_pacotes.png');
+	padding: 5%;
+}
