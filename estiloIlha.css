@@ -24,3 +24,15 @@ h1, #portfolio{
 	background: url('imagens/bg_pacotes.png');
 	padding: 5%;
 }
+#portfolio{
+	margin: 2%;
+}
+#depoimentos{
+	
+}
+#garantiaSelo{
+	background: url(imagens/faixa_amarela.png);
+	width: 100%;
+	padding: 3%;
+	text-align: justify;
+}
