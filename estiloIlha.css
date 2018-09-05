@@ -1,42 +1,56 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 @import url('');
-body{
+body {
 	font-family: 'Open Sans', sans-serif;
 }
-.tudo{
-	margin: 0;
-	padding: 0 15%;
+
+.tudo {
+	background-size: cover;
+	background-repeat: no-repeat;
 }
-h1, #portfolio{
+
+h1, #portfolio {
 	text-align: center;
 }
-#topo{
+
+#topo {
 	margin-top: -25px;
 	width: 100%;
 }
-.nav{
+
+.nav {
 	margin: 2%;
+	width: 100%;
 }
-.nav a{
+
+.nav a {
 	vertical-align: middle;
 }
-.nav img{
+
+.nav img {
 	width: 208px;
 	height: 96px
 }
-#nossosServicos{
+
+#nossosServicos {
 	background: url('imagens/bg_pacotes.png');
-	padding: 5%;
+	width: 100%;
 }
-#portfolio{
+
+#portfolio {
 	margin: 2%;
+	width: 100%;
 }
-#depoimentos{
-	
-}
-#garantiaSelo{
+
+#depoimentos {}
+
+#garantiaSelo {
 	background: url(imagens/faixa_amarela.png);
 	width: 100%;
-	padding: 3%;
 	text-align: justify;
+}
+
+section {
+	background-size: cover;
+	background-repeat: no-repeat;
 }
