@@ -3,6 +3,10 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 }
+.tudo{
+	margin: 0;
+	padding: 0 15%;
+}
 h1, #portfolio{
 	text-align: center;
 }
