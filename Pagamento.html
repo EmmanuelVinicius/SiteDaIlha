@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -7,58 +7,63 @@
     <title>Pagamento</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
+    <link rel="stylesheet" href="Componentes/Style_Pages.css">
 </head>
 
 <body>
-    <div class="text-white" style="padding:2% 15.5%; background-color:#2dbd4c;">
-        <h1 style="margin-bottom:0;">Pagamento</h1>
-        <h6 style="margin-top:0;">Pagamento</h6>
+    <header id="cabecalho"></header>
+    <div class="topoVerde">
+        <h1>Pagamento</h1>
+        <h6>Meios de pagamento</h6>
     </div>
-    <div class="text-center row" style="border: 2px solid #2dbd4c;border-radius:50px;margin:5% 20%;">
-        <span class="text-secondary col-md-4" style="font-size:1.3em;margin: 1.3% 0">Cadastro de Cliente</span>
-        <span class="text-secondary col-md-4" style="font-size:1.3em;margin: 1.3% 0">Briefing</span>
-        <span class="text-success col-md-4" style="font-size:1.3em;margin: 1.3% 0">Pagamento</span>
+    <div class="text-center row topoControle">
+        <span class="text-secondary col-md-4 controle"><img src="icones/1cinza.png" alt=""> Cadastro de Cliente</span>
+        <span class="text-secondary col-md-4 controle"><img src="icones/2cinza.png" alt="">Briefing</span>
+        <span class="text-success col-md-4 controle"><img src="icones/3verde.png" alt="">Pagamento</span>
     </div>
     <div class="container">
         <h3>Pagamento do Pedido</h3>
-        <p style="margin:2% 0;">Pagamento via Boleto Bancário.</p>
+        <p class="guiaPagamento">Pagamento via Boleto Bancário.</p>
         <img src="imagens/boleto.png" alt="Imagem de geração do boleto.">
         <input type="button" class="btn btn-success" value="Gerar Boleto">
-        <p style="margin:2% 0;">Pagamento via Cartão de Crédito.</p>
+        <p class="guiaPagamento">Pagamento via Cartão de Crédito.</p>
         <img src="imagens/selo_gerencia_net.png" alt="Imagem de selo gerência net.">
         <img src="imagens/cartoes.png" alt="Imagem de tipos de cartões.">
-        <p><input type="button" class="btn btn-danger" value="Fazer Pagamento" style="background-color:orangered;"></p>
-        <p style="margin:2% 0;">Pagamento via Transferencia Bancária ou Depósito.</p>
-        <div style="background: #0184ff42;border-radius:50px;color:#00509b;padding: 1% 3%;">
+        <p><input type="button" class="btn btn-danger pagamentoLaranja" value="Fazer Pagamento"></p>
+        <p class="guiaPagamento">Pagamento via Transferencia Bancária ou Depósito.</p>
+        <div class="avisoAzul">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis accusamus ipsam debitis ex nisi saepe totam asperiores incidunt voluptates perspiciatis quasi atque culpa repellendus, at magni laboriosam, provident praesentium quod.
         </div>
-        <div class="row text-center" style="margin:2% 0;">
+        <div class="row text-center guiaPagamento">
             <div class="col-md-3">
-                <img src="imagens/brasil.png" alt="Banco Do Brasil" style="width:100px;height:100px">
+                <img class="bancos" src="imagens/brasil.png" alt="Banco Do Brasil">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. A soluta quae accusantium. Dolores, ad, harum error obcaecati amet neque, excepturi facilis quo alias quasi laboriosam iure rem nulla et praesentium?
                 </p>
             </div>
             <div class="col-md-3">
-                <img src="imagens/itau.png" alt="Banco Itaú" style="width:100px;height:100px">
+                <img class="bancos" src="imagens/itau.png" alt="Banco Itaú">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab esse doloremque, sequi autem alias soluta eligendi officiis quasi sit. Aperiam repellat, voluptates quibusdam praesentium fuga repellendus minima iusto reprehenderit ratione.
                 </p>
             </div>
             <div class="col-md-3">
-                <img src="imagens/bradesco.png" alt="Banco Bradesco" style="width:100px;height:100px">
+                <img class="bancos" src="imagens/bradesco.png" alt="Banco Bradesco">
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil porro distinctio aliquid ullam, excepturi voluptatibus magnam dicta aut? Tempora porro sequi eos aut officia consequatur iusto assumenda maiores quaerat voluptas.
                 </p>
             </div>
             <div class="col-md-3">
-                <img src="imagens/caixa.png" alt="Caixa Economica" style="width:100px;height:100px">
+                <img class="bancos" src="imagens/caixa.png" alt="Caixa Economica">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur non, architecto tenetur aliquam laboriosam provident. Quos, tenetur eum, vel deleniti ipsam eius modi neque fugit numquam aperiam quaerat fuga veniam!
                 </p>
             </div>
         </div>
     </div>
+    <footer id="rodape"></footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="Componentes/JavaScript.js"></script>
 </body>
 
 </html>

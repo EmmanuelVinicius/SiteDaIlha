@@ -1,0 +1,127 @@
+.topoVerde {
+    padding: 2% 15.5%;
+    background-color: #2dbd4c;
+    color: white;
+}
+
+.topoVerde h1, .topoAzul h1 {
+    margin-bottom: 0;
+}
+
+.topoVerde h6, .topoAzul h1 {
+    margin-top: 0;
+}
+
+.topoAzul {
+    padding: 2% 15.5%;
+    background-color: #00a9d6;
+    color: white;
+}
+
+.topoControle {
+    border: 2px solid #2dbd4c;
+    border-radius: 50px;
+    margin: 5% 20%;
+}
+
+.controle {
+    font-size: 1.3em;
+    margin: 1.3% 0;
+}
+
+.controle::before {
+    /*    content: '';
+    margin-right: 8px;
+    width: 11px;
+    height: 11px;
+*/
+    content: '';
+    margin: 0 2% -2% 0;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.miniTitulos {
+    margin: 3% 0;
+}
+
+.iconeCompra {
+    margin: 3%;
+}
+
+.inputs {
+    border-radius: 50px !important;
+    margin: .5%;
+    padding: 2%;
+}
+
+.inputEstado {
+    border-radius: 50px !important;
+}
+
+textarea {
+    resize: none;
+}
+
+.avisoAzul {
+    background: #0184ff42;
+    border-radius: 50px;
+    color: #00509b;
+    padding: 1% 3%;
+    margin: 2% 0;
+}
+
+.avisoVerde {
+    background: #00a04880;
+    border-radius: 50px;
+    color: #005f2b;
+    padding: 1% 3%;
+    margin: 2% 0;
+}
+
+.pagamentoLaranja {
+    color: #fff;
+    background-color: #dc7835;
+    border-color: #dc7835;
+}
+
+.pagamentoLaranja:hover {
+    color: #fff;
+    background-color: #c85723;
+    border-color: #bd7821;
+}
+
+.pagamentoLaranja:focus, .pagamentoLaranja.focus {
+    box-shadow: 0 0 0 0.2rem rgba(220, 114, 53, 0.5);
+}
+
+.pagamentoLaranja.disabled, .pagamentoLaranja:disabled {
+    color: #fff;
+    background-color: #dc7835;
+    border-color: #dc7835;
+}
+
+.pagamentoLaranja:not(:disabled):not(.disabled):active, .pagamentoLaranja:not(:disabled):not(.disabled).active, .show>.pagamentoLaranja.dropdown-toggle {
+    color: #fff;
+    background-color: #bd7821;
+    border-color: #b2781f;
+}
+
+.pagamentoLaranja:not(:disabled):not(.disabled):active:focus, .pagamentoLaranja:not(:disabled):not(.disabled).active:focus, .show>.pagamentoLaranja.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(220, 114, 53, 0.5);
+}
+
+.guiaPagamento {
+    margin: 2% 0;
+}
+
+.bancos {
+    width: 100px;
+    height: 100px;
+}
+
+.bottomSobre {
+    margin: 2% 0 10%;
+}

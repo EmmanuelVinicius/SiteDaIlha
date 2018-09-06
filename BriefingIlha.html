@@ -1,50 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrinho de Compras</title>
+    <title>Briefing</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
+    <link rel="stylesheet" href="Componentes/Style_Pages.css">
 </head>
 
 <body>
-    <div class="text-white" style="padding:2% 15.5%; background-color:#2dbd4c;">
-        <h1 style="margin-bottom:0;">Carrinho de Compras</h1>
-        <h6 style="margin-top:0;">Carrinho de Compras</h6>
+    <header id="cabecalho" ></header>
+    <div class="topoVerde">
+        <h1>Carrinho de Compras</h1>
+        <h6>Carrinho de Compras</h6>
     </div>
-    <div class="text-center row" style="border: 2px solid #2dbd4c;border-radius:50px;margin:5% 20%;">
-        <span class="text-secondary col-md-4" style="font-size:1.3em;margin: 1.3% 0">Cadastro de Cliente</span>
-        <span class="text-success col-md-4" style="font-size:1.3em;margin: 1.3% 0">Briefing</span>
-        <span class="text-secondary col-md-4" style="font-size:1.3em;margin: 1.3% 0">Pagamento</span>
+    <div class="text-center row topoControle">
+        <span class="text-secondary col-md-4 controle">Cadastro de Cliente</span>
+        <span class="text-success col-md-4 controle">Briefing</span>
+        <span class="text-secondary col-md-4 controle">Pagamento</span>
     </div>
     <div class="container">
         <h3>Carrinho de Compras:</h3>
-        <div class="bg-success">
+        <div class="bg-success text-white miniTitulos">
+            <img class="iconeCompra" src="imagens/icone.png" alt="Ícone de compra">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora earum omnis dolor fugit quis vero deserunt quos a iste, corrupti et dicta quisquam consequatur rerum harum sit, alias, veniam sapiente.
         </div>
         <h3>Preencha com as Informações.</h3>
         <div class="form">
             <div class="input-group">
                 <legend class="text-success">Dados Pessoais</legend>
-                <input type="text" aria-label="Nome" class="form-control col-md-4" placeholder="Digite seu nome" style="border-radius:50px;margin:.5%;padding:2%;">
-                <input type="text" aria-label="Email" class="form-control col-md-4" placeholder="Digite seu email" style="border-radius:50px;margin:.5%;padding:2%;">
+                <input type="text" class="form-control col-md-4 inputs" placeholder="Digite seu nome">
+                <input type="text" class="form-control col-md-4 inputs" placeholder="Digite seu email">
             </div>
-            <input class="form-control col-md-4" type="number" placeholder="Digite seu telefone" style="border-radius:50px;margin:0 .5%;padding:2%;">
+            <input type="text" class="form-control col-md-4 inputs" placeholder="Digite seu telefone">
         </div>
         <hr>
         <div class="form">
             <div class="input-group">
                 <legend class="text-success">Endereço</legend>
-                <select class="form-control col-md-4" style="border-radius:50px;">
+                <select class="form-control col-md-4 inputEstado">
                     <option>Estado</option>
                 </select>
             </div>
         </div>
         <hr>
         <legend class="text-secondary">Observações Importantes</legend>
-        <textarea class="form-control col-md-8" rows="7" style="resize:none;"></textarea>
+        <textarea class="form-control col-md-8" rows="7"></textarea>
         <hr>
         <legend class="text-secondary">Selecione o tipo de logotipo que deseja:</legend>
         <div class="row text-center">
@@ -53,13 +56,17 @@
             <div class="col-md-4"><img src="imagens/logo_icone.png" alt="Opção de compra"><p><input type="radio" name="OpcaoCompra"></p></div>
         </div>
         <input type="button" value="Finalizar" class="btn btn-success">
-        <div style="background: #0184ff42;border-radius:50px;color:#00509b;padding: 1% 3%;margin:2% 0;">
+        <div class="avisoAzul">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis accusamus ipsam debitis ex nisi saepe totam asperiores incidunt
             voluptates perspiciatis quasi atque culpa repellendus, at magni laboriosam, provident praesentium quod.
         </div>
-        <div style="background: #00a04880;border-radius:50px;color:#005f2b;padding: 1% 3%;margin:2% 0;">
+        <div class="avisoVerde">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis accusamus ipsam debitis ex nisi saepe totam asperiores incidunt
             voluptates perspiciatis quasi atque culpa repellendus, at magni laboriosam, provident praesentium quod.
         </div>
-    </body>
-    </html>
+    </div>
+    <footer id="rodape"></footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="Componentes/JavaScript.js"></script>
+</body>
+</html>
