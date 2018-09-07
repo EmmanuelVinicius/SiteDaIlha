@@ -46,6 +46,61 @@ header{
 .contain{
     padding: 0 15.5%;
 }
+.containHome{
+    padding: 4% 15.5%;
+    margin: 0;
+}
+.slide{
+    width: 100%;
+}
+.titulo{
+    margin-bottom: 0;
+}
+.subtitulo{
+    margin-top: 0;
+    margin-bottom: 3%;
+}
+#negocio{
+    background: url('../imagens/bg_sobre.png');
+    width: 100%;
+}
+.fundoCinza{
+    background: url('../imagens/foto_portfolio_1.png');
+    border-radius: 4px;
+}
+#nossosServicos {
+	background: url('../imagens/bg_pacotes.png');
+    background-size: cover;
+    width: 100%;
+}
+#contato{
+    background: url('../imagens/bg_contato.png');
+    background-size: cover;
+    width: 100%;
+}
+
+.perguntas{
+    border: 2px solid #2dbd4c;
+    border-radius: 50px;
+    padding: 2% 6%;
+    margin-bottom: 3%;
+}
+.perguntas img{
+    float: right;
+    width: 10%;
+}
+.compra{
+    border: 2px solid white;
+    border-radius: 50px;
+    text-align: center;
+    padding: 1% 3%;
+}
+.dados p, .dados input, textarea{
+    font-family: Ample;
+}
+.radius{
+    border-radius: 50px; 
+}
 .descricao{
     font-family: OpenLight;
 }
@@ -104,7 +159,15 @@ header{
     margin: .5%;
     padding: 2%;
 }
-
+.inputAdd{
+    border-radius: 0 50px 50px 0;
+}
+inputGroup{
+    background-color: white;
+}
+.prep{
+    border-radius: 50px 0 0 50px;
+}
 .inputEstado {
     border-radius: 50px !important;
 }
@@ -132,6 +195,10 @@ textarea {
     .avisoVerde, .avisoAzul{
         padding: 2% 6%;
     }
+    .perguntas img{
+        width:4%;
+    }
+
 }
 
 .pagamentoLaranja {
@@ -201,7 +268,7 @@ textarea {
 #fundoFooter{
     background: url('../imagens/faixa_amarela.png');
     padding:0 13%;
-    margin-top:3%;
+    margin-top:-10px;
     background-repeat:no-repeat;
     width: 100%;
 }
