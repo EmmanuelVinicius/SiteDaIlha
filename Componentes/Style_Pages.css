@@ -1,3 +1,60 @@
+@font-face{
+    font-family: AmpleBold;
+    src: url('../fontes/AmpleSoft Bold_0.otf')
+}@font-face{
+    font-family: AmpleMedium;
+    src: url('../fontes/AmpleSoft Medium_0.otf')
+}@font-face{
+    font-family: Ample;
+    src: url('../fontes/AmpleSoft_0.otf')
+}@font-face{
+    font-family: OpenLight;
+    src: url('../fontes/OpenSans-Light_0.ttf')
+}@font-face{
+    font-family: OpenRegular;
+    src: url('../fontes/OpenSans-Regular_0.ttf')
+}
+
+body{
+    font-family: AmpleMedium;
+}
+header{
+    font-family: Ample;
+}
+#faixaCima{
+    background: url(../imagens/barra_colorida.png) repeat-x;
+    margin-bottom:0;
+    padding-bottom:0;
+    height: 3px;
+}
+#navCima{
+    padding-left:15.5%;
+}
+#logotipo{
+    width:12rem;
+    height:6rem;
+    margin:.5% 2%;
+}
+#numFixo{
+    margin:3%;
+}
+#numWhats{
+    margin:3% 0 0;
+    padding:4%;
+    font-size:.9em;
+}
+.contain{
+    padding: 0 15.5%;
+}
+.descricao{
+    font-family: OpenLight;
+}
+#agencia{
+    width: 100%;
+}
+.dadosForm{
+    font-family: Ample;
+}
 .topoVerde {
     padding: 2% 15.5%;
     background-color: #2dbd4c;
@@ -26,21 +83,12 @@
 
 .controle {
     font-size: 1.3em;
+    font-family: Ample;
     margin: 1.3% 0;
 }
-
-.controle::before {
-    /*    content: '';
-    margin-right: 8px;
-    width: 11px;
-    height: 11px;
-*/
-    content: '';
-    margin: 0 2% -2% 0;
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+.controle img {
+    width: 38px;
+    margin-right: 1%;
 }
 
 .miniTitulos {
@@ -69,16 +117,21 @@ textarea {
     background: #0184ff42;
     border-radius: 50px;
     color: #00509b;
-    padding: 1% 3%;
+    padding: 4% 12%;
     margin: 2% 0;
+    font-family: Ample;
 }
-
 .avisoVerde {
     background: #00a04880;
     border-radius: 50px;
     color: #005f2b;
-    padding: 1% 3%;
+    padding: 4% 12%;
     margin: 2% 0;
+}
+@media (min-width:768px){
+    .avisoVerde, .avisoAzul{
+        padding: 2% 6%;
+    }
 }
 
 .pagamentoLaranja {
@@ -115,6 +168,7 @@ textarea {
 
 .guiaPagamento {
     margin: 2% 0;
+    font-family: Ample;
 }
 
 .bancos {
@@ -124,4 +178,56 @@ textarea {
 
 .bottomSobre {
     margin: 2% 0 10%;
+}
+.bg-success p{
+    font-family: Ample;
+}
+#rodape{
+    position: relative;
+}
+#selo{
+    position:absolute;
+    padding:0 0 0 0%;
+    margin-top:-.5%;
+    width: 1in
+}
+@media (min-width:768px){
+
+    #selo{
+        padding:0 0 0 13%;
+        width: 21%;
+    }
+}
+#fundoFooter{
+    background: url('../imagens/faixa_amarela.png');
+    padding:0 13%;
+    margin-top:3%;
+    background-repeat:no-repeat;
+    width: 100%;
+}
+#textoFooter{
+    padding:3% 0 3% 25%;
+    margin:0;
+    font-family: AmpleBold;
+    color: white;
+}
+#textoFooter span{
+    color:black;
+}
+#whats{
+    padding-top:15%;
+    width:45%;
+}
+.redesSociais{
+    margin:1%;
+}
+.ultimo{
+    background:#00a9d6;
+    margin: 0;
+    padding: 2%;
+    width:100%;
+}
+.fonte{
+    font-family: Ample;
+    font-size: .7rem;
 }

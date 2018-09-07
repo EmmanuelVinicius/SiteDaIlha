@@ -11,23 +11,73 @@
 </head>
 
 <body>
-    <header id="cabecalho" ></header>
+    <header id="cabecalho">
+        <div id="faixaCima"></div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navCima">
+                <a class="navbar-brand" href="#">
+                    <img id="logotipo" src="imagens/logotipo.png" alt="Ilha Criativa - Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Empresa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portifólio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Preços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">#Depoimentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a id="numFixo" class="text-secondary" href="#">(17) 3043-1521</a>
+                            <a id="numWhats" class="badge badge-pill badge-success" href="#">(17) 99653-0534
+                                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
     <div class="topoVerde">
         <h1>Carrinho de Compras</h1>
         <h6>Carrinho de Compras</h6>
     </div>
     <div class="text-center row topoControle">
-        <span class="text-secondary col-md-4 controle">Cadastro de Cliente</span>
-        <span class="text-success col-md-4 controle">Briefing</span>
-        <span class="text-secondary col-md-4 controle">Pagamento</span>
+        <span class="text-secondary col-md-4 controle"><img src="icones/1cinza.png" alt="">Cadastro de Cliente</span>
+        <span class="text-success col-md-4 controle"><img src="icones/2verde.png" alt="">Briefing</span>
+        <span class="text-secondary col-md-4 controle"><img src="icones/3cinza.png" alt="">Pagamento</span>
     </div>
-    <div class="container">
-        <h3>Carrinho de Compras:</h3>
-        <div class="bg-success text-white miniTitulos">
-            <img class="iconeCompra" src="imagens/icone.png" alt="Ícone de compra">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora earum omnis dolor fugit quis vero deserunt quos a iste, corrupti et dicta quisquam consequatur rerum harum sit, alias, veniam sapiente.
+    <div class="contain">
+        <h2 class="miniTitulos">Carrinho de Compras:</h2>
+        <div class="bg-success text-white row">
+            <div class="col-md-2"><img class="iconeCompra" src="imagens/icone.png" alt="Ícone de compra"></div>
+            <p class="col-md-3">Logotipo profissional</p>
+            <p class="col-md-4">
+                <br>-Direito a revisão ilimitada
+                <br>-Prazo de entrega recorde
+            </p>
+            <p class="col-md-3">
+                <br>-Logotipo exclusivo
+                <br>-Nota fiscal
+            </p>
         </div>
-        <h3>Preencha com as Informações.</h3>
+        <h2 class="miniTitulos">Preencha com as Informações.</h2>
+        <div class="dadosForm">
         <div class="form">
             <div class="input-group">
                 <legend class="text-success">Dados Pessoais</legend>
@@ -65,8 +115,53 @@
             voluptates perspiciatis quasi atque culpa repellendus, at magni laboriosam, provident praesentium quod.
         </div>
     </div>
-    <footer id="rodape"></footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="Componentes/JavaScript.js"></script>
+    </div>
+    <footer id="rodape">
+        <img id="selo" src="imagens/selo.png" alt="Selo de Segurança">
+        <div id="fundoFooter">
+            <p id="textoFooter">
+                COMPRE COM SEGURANÇA,
+                <span>NÃO FICANDO SATISFEITO</span>,
+                <br>
+                <span>DEVOLVEMOS SEU DINHEIRO</span> SEM PERGUNTAS OU QUESTIONAMENTOS!
+            </p>
+        </div>
+        <div class="row ultimo">
+            <div class="col-md-3">
+                <img id="whats" src="imagens/via_whastapp.png" alt="">
+            </div>
+            <div class="col-md-2">
+                <p>#Precisa de ajuda?</p>
+                <p class="fonte">
+                    >Fale Conosco
+                    <br>>Whatsapp
+                    <br>>Skype
+                </p>
+            </div>
+            <div class="col-md-2">
+                <p>#Sobre a Ilha</p>
+                <p class="fonte">
+                        >Quem Somos
+                        <br>>Politica de privacidade
+                        <br>>Termos de uso
+                    </p>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-3">
+                <p>Redes Sociais</p>
+                <div class="row">
+                    <img class="redesSociais" src="imagens/facebook.png" alt="">
+                    <img class="redesSociais" src="imagens/youtube.png" alt="">
+                    <img class="redesSociais" src="imagens/twitter.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 </html>
