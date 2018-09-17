@@ -6,22 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre a Ilha</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    crossorigin="anonymous">
     <link rel="stylesheet" href="Componentes/Style_Pages.css">
 </head>
 
 <body>
     <header id="cabecalho">
-    <div id="faixaCima"></div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navCima">
+        <div id="faixaCima"></div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navCima">
             <a class="navbar-brand" href="#">
                 <img id="logotipo" src="imagens/logotipo.png" alt="Ilha Criativa - Logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+            
+            
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
@@ -42,11 +42,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contato</a>
                     </li>
-
+                    
                     <li class="nav-item">
                         <a id="numFixo" class="text-secondary" href="#">(17) 3043-1521</a>
                         <a id="numWhats" class="badge badge-pill badge-success" href="#">(17) 99653-0534
-                            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                            <img id="iconWhats" src="imagens/whatsapp_icone.png" alt="">
                         </a>
                     </li>
                 </ul>
@@ -74,8 +74,8 @@
         </div>
         <p class="bottomSobre descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam pariatur voluptatum obcaecati ab debitis amet, expedita
             neque aperiam animi ea praesentium sed natus ipsa nisi hic accusamus minima a ipsam.</p>
-    </div>
-    <footer id="rodape">
+        </div>
+        <footer id="rodape">
             <img id="selo" src="imagens/selo.png" alt="Selo de Segurança">
             <div id="fundoFooter">
                 <p id="textoFooter">
@@ -85,29 +85,41 @@
                     <span>DEVOLVEMOS SEU DINHEIRO</span> SEM PERGUNTAS OU QUESTIONAMENTOS!
                 </p>
             </div>
-            <div class="row ultimo">
+            <div class="row ultimo bg-primary text-white">
                 <div class="col-md-3">
-                    <img id="whats" src="imagens/via_whastapp.png" alt="">
                 </div>
+                <img id="whats" src="imagens/via_whastapp.png" alt="">
                 <div class="col-md-2">
-                    <p>#Precisa de ajuda?</p>
+                    <h5>#Precisa de ajuda?</h5>
                     <p class="fonte">
-                        >Fale Conosco
-                        <br>>Whatsapp
-                        <br>>Skype
+                        <a class="text-white" href="#">> Fale Conosco</a>
+                        <br>
+                        <a class="text-white" href="#">> Whatsapp</a>
+                        <br>
+                        <a class="text-white" href="#">> Skype</a>
+                        <br>
+                        <a class="text-white" href="#">> Whatsapp</a>
+                        <br>
+                        <a class="text-white" href="#">> Skype</a>
                     </p>
                 </div>
                 <div class="col-md-2">
-                    <p>#Sobre a Ilha</p>
+                    <h5>#Sobre a Ilha</h5>
                     <p class="fonte">
-                            >Quem Somos
-                            <br>>Politica de privacidade
-                            <br>>Termos de uso
-                        </p>
+                        <a class="text-white" href="#">>Quem Somos</a>
+                        <br>
+                        <a class="text-white" href="#">>Politica de privacidade</a>
+                        <br>
+                        <a class="text-white" href="#">>Termos de uso</a>
+                        <br>
+                        <a class="text-white" href="#">>Politica de privacidade</a>
+                        <br>
+                        <a class="text-white" href="#">>Termos de uso</a>
+                    </p>
                 </div>
-                <div class="col-md-2"></div>
+                <div class="col-md-2 funco"></div>
                 <div class="col-md-3">
-                    <p>Redes Sociais</p>
+                    <h5>Redes Sociais</h5>
                     <div class="row">
                         <img class="redesSociais" src="imagens/facebook.png" alt="">
                         <img class="redesSociais" src="imagens/youtube.png" alt="">
@@ -115,14 +127,34 @@
                     </div>
                 </div>
             </div>
+            <div class="dpsUlt py-1">
+                <li>
+                    <img class="px-3" src="imagens/logo_footer.png" alt="">
+                </li>
+                <li>
+                    <span class="txtDps">Copyright point gravacoes. Todos os direitos reservados</span>
+                </li>
+                <li>
+                    <img class="px-3" src="imagens/selo_gerencia_net.png" alt="">
+                </li>
+                <li>
+                    <img class="px-3" src="imagens/cartoes.png" alt="">
+                </li>
+                <li>
+                    <img class="px-3" src="imagens/sitelock.png" alt="">
+                </li>
+                <li>
+                    <img class="px-3" src="imagens/selo_verde.png" alt="">
+                </li>
+            </div>
         </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    <!-- <script src="Componentes/JavaScript.js"></script> -->
-</body>
-
-</html>
+        <!-- <script src="Componentes/JavaScript.js"></script> -->
+    </body>
+    
+    </html>
